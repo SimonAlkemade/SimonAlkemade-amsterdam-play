@@ -87,7 +87,7 @@ const PARTS = {
   "index.wasm": ["engine/index.wasm"],
   "index.pck": ["engine/index.pck"],
 };
-const TOTAL = 43699190 + 8347824;
+const TOTAL = 43699190 + 8378848;
 let loaded = 0;
 const fill = document.getElementById("fill");
 const statusEl = document.getElementById("status");
@@ -126,7 +126,7 @@ window.fetch = async function (input, init) {
 <script>
 const engine = new Engine({
   args: [], canvasResizePolicy: 2, ensureCrossOriginIsolationHeaders: false, executable: "engine/index",
-  experimentalVK: false, fileSizes: { "engine/index.pck": 8347824, "engine/index.wasm": 43699190 },
+  experimentalVK: false, fileSizes: { "engine/index.pck": 8378848, "engine/index.wasm": 43699190 },
   focusCanvas: true, gdextensionLibs: [],
 });
 const cover = document.getElementById("cover");
